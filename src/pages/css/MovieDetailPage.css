@@ -1,0 +1,57 @@
+/* MovieDetailPage.css */
+
+.movie-detail {
+    padding: 2rem;
+    text-align: center;
+    background-color: gray;
+  }
+  
+  .movie-detail img.movie-poster {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .movie-detail h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .movie-detail p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .movie-detail h2 {
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .cast-item {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .cast-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 0.5rem;
+  }
+  
+  .cast-item p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
